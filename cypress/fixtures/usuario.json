@@ -1,0 +1,15 @@
+{
+  "nome": "QA Tester",
+  "senha": "Teste@123",
+  "titulo": "Mr",
+  "diaNascimento": "10",
+  "mesNascimento": "5",
+  "anoNascimento": "1995",
+  "empresa": "F1RST",
+  "endereco": "Av. Paulista, 1000",
+  "pais": "United States",
+  "estado": "Sao Paulo",
+  "cidade": "Sao Paulo",
+  "cep": "01310-000",
+  "celular": "11999999999"
+}

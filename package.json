@@ -1,0 +1,20 @@
+{
+  "name": "f1rst-automation",
+  "version": "1.0.0",
+  "description": "Testes automatizados Web e API - Desafio de Automação F1RST (Cypress + Cucumber + JavaScript)",
+  "author": "QA",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run",
+    "test:web": "cypress run --spec \"cypress/e2e/web/**/*.feature\"",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.feature\"",
+    "test:headed": "cypress run --headed"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^13.13.0",
+    "esbuild": "^0.21.5"
+  }
+}
